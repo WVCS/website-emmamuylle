@@ -3,6 +3,31 @@ body {
 }
 
    img{
-  width: 45vh;
-    border: solid yellow 10px;
+  width: 60vh;
+    border: solid #7209b7 10px;
+}
+
+nav{
+  list-style-type: none;
+  background-color: #ade8f4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li {
+  display: inline;
+  padding: 13px;
+  float: right;
+}
+
+li:hover {
+background-color: white;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
 }
